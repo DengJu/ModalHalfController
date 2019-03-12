@@ -8,10 +8,7 @@ s.author                     = { 'Ermao' => 'xebdison@163.com' }
 s.platform                   = :ios
 s.ios.deployment_target      = '10.0'
 s.source                     = { :git => 'https://github.com/DengJu/ModalHalfController.git', :tag => s.version }
-s.source_files               = 'ModalHalfController/*.{h,m}'
-s.resource_bundle            = { 'ModalHalfController' => ['Resources/**/*.xcassets'] }
-s.resource                   = 'xxx/xxx.bundle'
-s.ios.vendored_frameworks    = 'xxx/xxx.framework'
+s.source_files               = 'EMModalStyle/*.{h,m}'
 s.frameworks                 = 'UIKit'
 s.static_framework           = true
 end
