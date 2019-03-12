@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                       = 'EMModalStyle'
-s.version                    = '1.0.0'
+s.version                    = '1.0.1'
 s.summary                    = 'modal半个控制器'
 s.homepage                   = 'https://github.com/DengJu/ModalHalfController'
 s.license                    = { :type => 'MIT', :file => 'LICENSE' }
