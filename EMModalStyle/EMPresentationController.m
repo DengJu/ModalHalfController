@@ -48,7 +48,7 @@
     
     [self.containerView addSubview:mainView];
     
-    //弹出Controller之后,上面空白的部分加个蒙版,点击后可以dismiss掉控制器
+    //弹出Controller之后,上面空白的部分加个蒙版,点击后可以dismiss控制器
     [self.containerView insertSubview:self.dimView atIndex:0];
     
     [self.dimView addGestureRecognizer:self.tap];
